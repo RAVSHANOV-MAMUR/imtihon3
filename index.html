@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Imtihon</title>
+</head>
+<body>
+
+    <style>
+        body {
+            background: #FFD845;
+            text-align: center;
+        }
+
+        .list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 33px;
+            margin-top: 80px;
+        }
+        .item{
+            width: 307px;
+            height: 423px;
+            flex-shrink: 0;
+            background-color: #FFF;
+            border: 3px solid black;
+            border-radius: 12px;
+            list-style-type: none;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .line {
+            background-color: #000;
+            border:2px solid #000;
+        }
+
+        .heading {
+            padding-left: 20px;
+        }
+
+        .text{
+            padding-left: 20px;
+        }
+        .strong__0 {
+            padding-left: 20px;
+        }
+
+        .strong__1 {
+            padding-left: 20px;
+        }
+        .Text {
+            font-size: 52px;
+            color: blue;
+        }
+
+        .button{
+            position: absolute;
+            margin-top: -80px;
+            margin-left: 10px;
+            background: #fff;
+            border: none;
+            border-radius: 50%;
+        }
+
+        .img {
+            border-radius: 60%;
+        }
+    </style>
+    
+
+    <header class="header">
+            <img src=".//img/logo.png" alt="pokemon logo">
+            <p class="Text"></p>
+
+        <ul class="list">
+        </ul>
+    </header>
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
